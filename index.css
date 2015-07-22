@@ -1,0 +1,186 @@
+﻿html, body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Berkshire Swash', cursive;
+    color: white;
+}
+
+#top {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 60px;
+    background-color: #2D6CA2;
+    border-bottom: 1px solid #000;
+}
+
+#heading {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    pointer-events: none;
+}
+
+#bottom {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #000;
+}
+
+#bottom-top {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 298px;
+}
+
+#bottom-middle {
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    right: 0px;
+    bottom: 60px;
+}
+
+#bottom-bottom {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 60px;
+}
+
+#bottom-bottom-panel {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left:-225px;
+}
+
+#forward-map {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom:0px;
+}
+
+#left-map {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 33%;
+    margin-left: -2px;
+}
+
+#middle-map {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 33%;
+    margin-left: 33%
+}
+
+#right-map {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 34%;
+    margin-right: -2px;
+}
+
+#map {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+#plane {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin-left: -75px;
+    margin-top: -75px;
+    background-image: url('img/airplane.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rc-panel{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 125px;
+}
+#panel-speed {
+    left: 0px;
+}
+#panel-altitude {
+    left: 125px;
+}
+#panel-heading {
+    left: 250px;
+}
+#panel-location {
+    left: 350px;
+    width: 200px;
+}
+
+.rc-buttons {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.rc-buttons > .btn {
+    padding: 2px 6px;
+    font-size: 10px;
+}
+
+.rc-heading {
+    position: absolute;
+    top: 3px;
+    left: 35px;
+    font-size: 15px;
+    font-weight: 700;
+    pointer-events: none;
+}
+
+.rc-reading {
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    font-size: 14px;
+    pointer-events: none;
+}
+
+#dial-location-x {
+    font-size: 12px;
+    top: 20px;
+}
+#dial-location-y {
+    font-size: 12px;
+    top: 37px;
+}
+
+#forward-map, #left-map, #right-map, #middle-map {
+    pointer-events: none;
+}
