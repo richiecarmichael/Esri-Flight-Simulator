@@ -46,7 +46,7 @@ function (
         var viewMain = new MapView({
             container: 'map',
             map: map,
-            zoom: 10,
+            zoom: 12,
             rotation: 0,
             center: location
         });
@@ -78,7 +78,7 @@ function (
             }
         });
 
-        viewMain.ui.components = ['compass'];
+        viewMain.ui.components = ['compass', 'zoom'];
         viewForward.ui.components = [];
         viewLeft.ui.components = [];
         viewRight.ui.components = [];

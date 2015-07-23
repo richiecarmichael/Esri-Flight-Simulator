@@ -181,6 +181,6 @@
     top: 37px;
 }
 
-#forward-map, #left-map, #right-map, #middle-map {
+#forward-map, #left-map, #right-map {
     pointer-events: none;
 }
